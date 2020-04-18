@@ -7,7 +7,7 @@ namespace ConsoleAppATM
         static void Main(string[] args)
         {
             decimal accountBalance = 1000.00m;  
-            bool clientCardOwnsByBank = true;  
+            bool clientCardOwnsByBank = false;  // change to test different paths
             Console.WriteLine("Balance before withdraw: " + accountBalance);
 
             Console.Write("Amount to withdraw: ");
